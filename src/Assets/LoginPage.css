@@ -1,0 +1,42 @@
+.LoginMainDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginBox{
+    border:solid black 1px;
+    border-radius:20px ;
+    padding: 50px;
+}
+
+.loginInput{
+    width: 200px;
+    height: 20px;
+    border-radius:5px ;
+    border: 2px solid grey;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.LoginButton{
+    background-color: rgb(18, 72, 196);
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 5px;
+}
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.InputFieldsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
